@@ -6,7 +6,7 @@ import style from"./style.module.css";
 
 import Sol from "../../../../public/sun.png";
 import Lua from "../../../../public/moon.png";
-
+import Logo from "../../../../public/favicon.ico";
 
 export default function Header(){
 
@@ -34,7 +34,8 @@ export default function Header(){
     return(
         <header className={backgroundTema}>
         <div className={style.containerTitulo}>
-        <h1>M.</h1>
+            <Image src={Logo} alt="Circulo de cores" width={25} height={25} />
+        <h1>Th-Design</h1>
         </div>
         <div className={style.containerBtn}>     
             <button onClick={MudaTemaIcon}>

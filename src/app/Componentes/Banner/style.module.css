@@ -6,8 +6,10 @@
     font-weight: 300;
 }
 .containerImagem{
-    width: 395px;
-    height: 415px;
+    width: 60%;
+    min-width: 275px;
+    max-width: 500px;
+    height: auto;
 }
 .Imagem{
     width: 100%;
@@ -16,14 +18,27 @@
 }
 .containerTextos{
     display: flex;
-    width: 60%;
+    width: 65vw;
+    max-width: 590px;
     height: 75vh;
     flex-direction: column;
-    align-items: center;
+    letter-spacing: 2px;
     justify-content: center;
-    letter-spacing: 5px;
+    padding: 0px 10px 0px 0px;
 }
 .containerTextos h2{
-    font-size: clamp(20px, 3vw, 3vw);
+    font-size: clamp(37px,4vw,4vw);
     font-weight: 300;
+    padding-top: 10px;
+}
+
+@media(max-width:664px){
+    .containerImagem{
+    display: none;
+    }
+    .containerTextos{
+    width: 100%;
+    text-align: center;
+    padding: 5px;
+    }
 }
