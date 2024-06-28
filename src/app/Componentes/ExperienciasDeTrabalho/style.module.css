@@ -1,0 +1,29 @@
+.containerGlobalExperiencias{
+    width: 100%;
+    height: auto;
+    padding: 12px 0px 40px 0px;
+    text-align: center;
+    background-color:#f6f7fc;
+}
+.containerTextoApresentacao{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    letter-spacing: 2px;
+    padding: 0px 10px;
+}
+.containerTextoApresentacao h2{
+    text-align: center;
+    padding: 10px 0px;
+}
+.containerTextoApresentacao p{
+    width: 94%;
+    max-width: 860px;
+}
+.containerTextoApresentacao span{
+    display: inline-block;
+    width: 73px;
+    height: 7px;
+    color: transparent;
+    border-bottom: 3px solid #feb633;
+}

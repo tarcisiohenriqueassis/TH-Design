@@ -1,0 +1,13 @@
+.logoFooter{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 15px 20px;
+}
+.logoFooter h3{
+    font-family: "Qwigley", cursive;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 40px;
+    letter-spacing: 5px;
+}
