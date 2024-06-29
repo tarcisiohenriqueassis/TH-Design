@@ -15,7 +15,7 @@ import Header from "../Header/Header";
 
 export default function Footer(props){
     return(
-        <footer>
+        <footer className={style.footer}>
             <div className={style.logoFooter}>
             <Image src={Logo} alt="Circulo de cores" width={25} height={25} />
             <h3>Th-Design</h3>
@@ -24,13 +24,14 @@ export default function Footer(props){
                 {props.children}
             </div>
         <div className={style.containerRedesSocias}>
-                <Link href={} target="Blank"><Image src={Facebook} width={100} height={100}/></Link>
-                <Link href={} target="Blank"><Image src={Twitter} width={100} height={100}/></Link>
-                <Link href={} target="Blank"><Image src={Linkedin} width={100} height={100}/></Link>
-                <Link href={} target="Blank"><Image src={Behance} width={100} height={100}/></Link>
-                <Link href={} target="Blank"><Image src={Dribble} width={100} height={100}/></Link>
-                <Link href={} target="Blank"><Image src={GooglePlus} width={100} height={100}/></Link>
+                <Link href={props.link} target="Blank"><Image src={Facebook} width={50} height={50}/></Link>
+                <Link href={props.link} target="Blank"><Image src={Twitter} width={50} height={50}/></Link>
+                <Link href={props.link} target="Blank"><Image src={Linkedin} width={50} height={50}/></Link>
+                <Link href={props.link} target="Blank"><Image src={Behance} width={50} height={50}/></Link>
+                <Link href={props.link} target="Blank"><Image src={Dribble} width={50} height={50}/></Link>
+                <Link href={props.link} target="Blank"><Image src={GooglePlus} width={50} height={50}/></Link>
             </div>
+            <span>Copyright 2024 <Link className={style.linkDesenvolvedor} href={props.linkDesenvolvedor}>{props.nomeDesenvolvedor}</Link></span>
         </footer>
     )
 }

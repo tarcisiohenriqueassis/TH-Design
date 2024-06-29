@@ -1,7 +1,13 @@
+.footer{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 0px 0px 20px 0px;
+}
 .logoFooter{
     display: flex;
     align-items: center;
-    justify-content: center;
     padding: 50px 15px 20px;
 }
 .logoFooter h3{
@@ -10,4 +16,26 @@
     font-style: normal;
     font-size: 40px;
     letter-spacing: 5px;
+}
+.containerParagrafo{
+    max-width: 860px;
+    padding:0px 10px 25px 10px;
+}
+.containerRedesSocias{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 10px 25px 25px 25px;
+}
+.containerRedesSocias img:hover{
+    border-radius: 50%;
+    box-shadow: 0px 2px 20px -4px black;
+}
+.linkDesenvolvedor{
+    text-decoration:none;
+    color: #c9c93f;
+}
+.linkDesenvolvedor:hover{
+    color: rgb(53, 209, 53);
 }
