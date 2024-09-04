@@ -1,4 +1,4 @@
-import style from "../ExperienciasDeTrabalho/style.module.css";
+import style from "../ExperienciasDeTrabalho/experience.module.css";
 
 export default function Experiencias(){
     return(

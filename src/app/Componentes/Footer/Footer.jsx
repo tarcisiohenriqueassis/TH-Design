@@ -1,4 +1,4 @@
-import style from "../Footer/style.module.css";
+import style from "../Footer/footer.module.css";
 
 import Image from "next/image";
 import Link from "next/link";

@@ -3,5 +3,12 @@
     padding:15px 10px 70px 10px;
     flex-wrap: wrap;
     justify-content: center;    
-    background-color:#f6f7fc ;
+}
+.themeLigth{
+    background-color: #f6f7fc;
+    color: #000;
+}
+.themeDark{
+    background-color: #000;
+    color:#f6f7fc ;
 }

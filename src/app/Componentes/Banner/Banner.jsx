@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-import style from "../Banner/style.module.css";
+import style from "../Banner/banner.module.css";
 
 import HomemBanner from "@/../public/banner.png";
 
